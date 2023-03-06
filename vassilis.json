@@ -1,0 +1,316 @@
+{
+  "name": "Vasileios Aretakis",
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
+  "info": {
+    "label": "IT Expert",
+    "brief": "Visionary technology expert with focus on driving teams to success. Driving based on the big picture. With multiple years different roles, and clear understanding of Business. Able to apply realistic approaches in any situation.",
+    "image": "./vassilis.jpg"
+  },
+  "contact": {
+    "website": "http://vassilis.it",
+    "phone": "+49 175 668 1 688",
+    "email": "talkwith@vassilis.it",
+    "other": []
+  },
+  "location": {
+    "city": "Berlin",
+    "code": "10587",
+    "country": "DE"
+  },
+  "social": [
+    {
+      "label": "",
+      "network": "GitHub",
+      "user": "varet80",
+      "url": "https://github.com/varet80"
+    },
+    {
+      "label": "",
+      "network": "LinkedIn",
+      "user": "varet80",
+      "url": "https://linkedin.com/in/varet"
+    }
+  ],
+  "employment": {
+    "summary": "",
+    "history": [
+      {
+        "employer": "SAP Signavio",
+        "url": "http://signavio.com",
+        "position": "Lead IT Expert",
+        "summary": "Leading DevOps teams to success. Around cost savings, architecture and cross team coordination",
+        "start": "2021-06",
+        "keywords": [
+          "Multi team management",
+          "DevOps Transofrmation",
+          "Leading Specialists",
+          "Multi Cloud strategy",
+          "Hiring and keeping people"
+        ],
+        "highlights": [
+          "Mentor, grow and transform teams",
+          "Lead workstreams to success",
+          "Cost reduction, Improvement of Processes and coordination of multiple teams",
+          "Business and Technology as one"
+        ]
+      },
+      {
+        "employer": "Elsevier",
+        "url": "http://elsevier.com",
+        "position": "Operations Lead",
+        "summary": "Leading teams of engineers, to deliver important scientific products.",
+        "end": "2021-06",
+        "start": "2018-11",
+        "keywords": [
+          "Hiring",
+          "People management",
+          "Tech strategy",
+          "Modernization with Kubernetes",
+          "IaaS practices"
+        ],
+        "highlights": [
+          "Work with five Dev squads, support dev teams and lead the way to devOps practices",
+          "Implement new CI/CD and Branching strategy across Development and Operations",
+          "Introduce new technology concepts for infrastructure, migrating products and supporting dev teams",
+          "Feed value back to organization by leading through example and providing new standards.",
+          "Build a team of engineers to support the initiatives",
+          "Strategy to reduce time to production and introduction of Real DevOps."
+        ]
+      },
+      {
+        "employer": "Schuberg Philis",
+        "url": "http://schubergphilis.com",
+        "position": "Lead Missions Critical Engineer",
+        "summary": "Support Financial institutions, using modern methods on classic software. While keeping short delivery cycles, of a modern setup.",
+        "end": "2018-11",
+        "start": "2017-02",
+        "keywords": [
+          "Business continuity",
+          "Project Management",
+          "Tech strategy",
+          "Modernization with Kubernetes",
+          "IaaS practices",
+          "Multi cloud (Private and Public)"
+        ],
+        "highlights": [
+          "Lead the changes in the team, and support Human Factor.",
+          "Introduce modern Container platform.",
+          "Automate and build Dual Cloud implementation, involving Private/public clouds.",
+          "Modernizing banking infrastructure."
+        ]
+      },
+      {
+        "employer": "Elsevier B.V.",
+        "url": "http://elsevier.com",
+        "position": "Leading DevOps change (Contractor)",
+        "summary": "Bring devops to Amsterdam Hub of Elsevier, by delivering fresh technology, in a new product.",
+        "end": "2017-02",
+        "start": "2016-06",
+        "keywords": [
+          "Agile",
+          "Green Field team",
+          "Tech strategy",
+          "Modernization of infrastructure"
+        ],
+        "highlights": [
+        ]
+      },
+      {
+        "employer": "Quby B.V.",
+        "url": "http://quby.com",
+        "position": "Manager of DevOps",
+        "summary": "Manage a team of professionals. Worked on transforming the team from Classic Ops to DevOps, but also lead the Public Cloud transition.",
+        "end": "2016-06",
+        "start": "2015-04",
+        "keywords": [
+          "Agile",
+          "Green Field team",
+          "Tech strategy",
+          "Modernization of infrastructure"
+        ],
+        "highlights": [
+          "Gather a team of engineers (hiring)",
+          "Introduce DevOps ways of working. (Infrastructure as code, automation, no Silos work)",
+          "Coach team of engineers to Agile methodologies.",
+          "Involve Development teams on transformation",
+          "Migrate to cloud/adoption of cloud",
+          "Blameless working.",
+          "IaC and IaaS adoption through coaching of classic ICT engineers."
+        ]
+      },
+      {
+        "employer": "Marktplaats (eBay Classifieds)",
+        "url": "http://marktplaats.nl",
+        "position": "Lead/Senior DevOps Engineer",
+        "end": "2015-04",
+        "start": "2014-05",
+        "keywords": [
+        ],
+        "highlights": [
+        ]
+      },
+      {
+        "employer": "TMG Online Media",
+        "url": "http://tmg.nl",
+        "position": "Senior Systems Engineer",
+        "end": "2014-05",
+        "start": "2013-02",
+        "keywords": [
+        ],
+        "highlights": [
+        ]
+      },
+      {
+        "employer": "BackBase",
+        "url": "http://backbase.com",
+        "position": "Senior Systems Engineer",
+        "end": "2011-10",
+        "start": "2013-01",
+        "keywords": [
+        ],
+        "highlights": [
+        ]
+      },
+      {
+        "employer": "ICOP",
+        "url": "http://icop.gr",
+        "position": "IT Manager",
+        "start": "2008-03",
+        "end": "2011-03",
+        "keywords": [
+        ],
+        "highlights": [
+        ]
+      },
+      {
+        "employer": "Coca-Cola Hellenic",
+        "url": "http://n-topos.gr",
+        "position": "Senior Systems Engineer",
+        "start": "2007-05",
+        "end": "2008-03",
+        "keywords": [
+        ],
+        "highlights": [
+        ]
+      },
+      {
+        "employer": "Topos communications S.A.",
+        "url": "http://n-topos.gr",
+        "position": "Senior System Engineer",
+        "start": "2005-05",
+        "end": "2007-05",
+        "keywords": [
+        ],
+        "highlights": [
+        ]
+      },
+      {
+        "employer": "Exodus S.A.",
+        "url": "http://exus.com",
+        "position": "Senior Systems Administrator",
+        "start": "2001-06",
+        "end": "2005-05",
+        "keywords": [
+        ],
+        "highlights": [
+        ]
+      },
+      {
+        "employer": "iPNG Group S.A.",
+        "url": "http://ipng.gr",
+        "position": "Systems Administrator",
+        "start": "1999-06",
+        "end": "2001-06",
+        "keywords": [
+        ],
+        "highlights": [
+        ]
+      }
+    ]
+  },
+
+  "skills": {
+    "sets": [
+      {
+        "name": "Web Development",
+        "level": "advanced",
+        "skills": [
+          "LAMP",
+          "JavaScript",
+          "HTML 5",
+          "Angular.js",
+          "jQuery",
+          "Sass",
+          "LESS"
+        ]
+      },
+      {
+        "name": "Ninjitsu",
+        "level": "intermediate",
+        "skills": [
+          "Tokagure Ryu",
+          "Shuriken",
+          "Yogen"
+        ]
+      },
+      {
+        "name": "Skillset #3",
+        "level": "beginner",
+        "skills": [
+          "Your",
+          "keywords",
+          "here"
+        ]
+      }
+    ],
+    "list": []
+  },
+
+  "languages": [
+    {
+      "language": "Greek",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "advanced"
+    },
+    {
+      "language": "Dutch",
+      "level": "beginner"
+    },
+    {
+      "language": "German",
+      "level": "beginner"
+    },
+    {
+      "language": "Russian",
+      "level": "just started"
+    }
+  ],
+  "interests": [
+    {
+      "name": "GitHub",
+      "summary": "Regular GitHub user and tinkerer.",
+      "keywords": [
+        "GitHub",
+        "git",
+        "GitHub Desktop (OS X)",
+        "LFS",
+        "GitHub API"
+      ]
+    },
+    {
+      "name": "chess",
+      "summary": "Avid chess player.",
+      "keywords": [
+        "Sicilian",
+        "King's Gambit",
+        "Ruy Lopez"
+      ]
+    }
+  ]
+}
