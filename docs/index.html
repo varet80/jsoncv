@@ -1,0 +1,941 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	<title>Vasileios Aretakis</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/v4-shims.css">
+	<style>
+		/* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zwV_pQ1T3xN3K1c3sB361us.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z306qf9KHRHwsVx7iw5MXmY.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/nj47mAZe0mYUIySgfn0wpQ.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    background: #393e46;
+    /* background: #f8f8f8; */
+    /* margin: 50px 0 100px; */
+    margin: 0;
+    letter-spacing: .3px;
+    color: #39424B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 1px; }
+
+h2 {
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: .5px; }
+
+h3 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: .4px;
+    padding-top: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+h3.bold {
+    font-weight: 700; }
+
+h4 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+h4.bold {
+    font-weight: 700; }
+
+h5 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 11px; }
+h5.italic {
+    font-style: italic; }
+
+h6 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 11px; }
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover, a:hover > i.fa-external-link, .info-tag-container a:hover .fa.fa-external-link {
+    color: #2895F1;
+}
+
+a .fa-external-link {
+    font-size: 8px;
+    margin-left: 2px;
+    vertical-align: text-top;
+    color: #999;
+}
+
+p, li {
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: .4px;
+}
+
+blockquote {
+    font-size: 11px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin: 10px 25px; }
+
+em {
+    color: #999;
+}
+
+ul {
+    margin: 10px 0 0;
+    -webkit-padding-start: 25px;
+}
+
+ul li {
+    padding-left: 10px;
+}
+
+ul.minimal {
+    list-style: none;
+    padding: 0;
+}
+
+ul.minimal li {
+    margin-bottom: 3px;
+    padding-left: 0;
+}
+
+ul.two-column {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 28px;
+    -moz-column-count: 2;
+    column-count: 2;
+    -moz-column-gap: 28px;
+    column-gap: 28px;
+}
+
+ul.two-column li {
+    padding-left: 0;
+    padding-bottom: 5px;
+}
+
+@page {
+    size: A4;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.keyline {
+    width: 45px;
+    /* margin: 8px 0 10px; */
+    margin: 4px 0 10px;
+    border-top: 1px solid #5C78FF;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*
+.profile-header {
+    width: auto;
+    max-width:  300px;
+    margin-right: 50px;
+}
+*/
+
+/*
+.profile-pic {
+    width: auto;
+    max-width: 800px;
+    margin-right: auto;
+    /* margin-top: -5px; */
+    /* margin-right: 18px; *//*
+}
+*/
+
+.profile-pic img {
+    width: 80px;
+    border-radius: 100%;
+    padding: 2px;
+    object-fit: cover;
+    float: right;
+}
+
+.summary {
+    margin: 5px 0 5px; }
+
+/* Layouts */
+.page {
+    background: #222831;
+    color: #eeeeee;
+    /* width: 612px; */
+    min-height: 792px;
+    display: block;
+    margin: 0 auto;
+    border-top: 10px solid #5C78FF;
+    /* padding: 36px 22px 30px 34px; */
+    padding: 50px; /* 50px calc(50px + 10%);*/
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.page:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left-column, .profile-header {
+    float: left;
+    /* width: 160px; */
+    width: 300px;
+    /* margin-right: 20px; */
+    margin-right: 50px;
+}
+
+.right-column, .profile-pic {
+    width: auto;
+    overflow: hidden;
+    max-width: 850px;
+    /* margin-right: 50px; */
+    margin: 0 auto;
+}
+
+.item {
+    /* margin-bottom: 15px; */
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #393e46;
+}
+
+.item:first-child, .title + .item {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+}
+
+.title {
+    background-color: #393e46;
+}
+
+.title > i {
+    float: left;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.right-column > .container > .title {
+    margin-bottom: 15px;
+}
+
+.gpa {
+    border: 1px solid #FFFFFF;
+    border-radius: 35%;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+@media only screen and (min-width: 2560px) {
+    .page {
+        padding: 2rem 60rem 2rem 60rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .page {
+        padding: 35px;
+    }
+
+    .left-column, .right-column {
+        width: 100%;
+        margin: 0;
+    }
+
+    .skills-container > section > ul > li
+    /*,.languages-container > ul > li */{
+        display: inline;
+    }
+
+    .skills-container > section > ul > li > h6
+    /*,.languages-container > ul > li > h6 */{
+        padding-right: 10px;
+        display: inline;
+    }
+
+    .info-tag-container .info-text {
+        font-size: 14px !important;
+    }
+
+    h3 {
+        font-size: 16px !important;
+    }
+
+    h4 {
+        font-size: 14px !important;
+    }
+
+    h6 {
+        font-size: 12px !important;
+    }
+
+    p, li {
+        font-size: 14px;
+    }
+
+    .item {
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+}
+
+@media print {
+    body {
+        margin: 0;
+        background: #FFFFFF;
+        color: #000;
+    }
+
+    main {
+        background: #FFFFFF !important;
+        color: black !important;
+    }
+
+    @page {
+        border-top: 2px solid #FFFFFF;
+    }
+
+    .page {
+        color: #000;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 35px 0 35px; /* 35px  35px; */
+        box-shadow: none;
+    }
+
+    .title {
+        background-color: #393e46;
+        color: #FFFFFF;
+        page-break-inside: avoid;
+    }
+
+    .keyline {
+        width: 45px;
+        /* margin: 8px 0 10px; */
+        margin: 4px 0 10px;
+        border-top: 2px solid #5C78FF;
+    }
+
+    .page .resume-header,
+    .page .resume-content {
+        padding: 0 35px 0 35px;
+    }
+
+    /* .container > section {
+        page-break-inside: avoid;
+    } */
+
+    .left-column {
+        width: 250px;
+        margin-right: 35px;
+    }
+
+    /* .left-column .container {
+        page-break-inside: avoid;
+    } */
+
+    .fa-external-link {
+        display: none;
+    }
+
+    .gpa {
+        border: 1px solid #393e46;
+        margin-left: 10px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .projects-container .item:nth-child(n+5) {
+        display: none;
+    }
+
+    .speaking-container .item:nth-child(n+12) {
+        display: none;
+    }
+
+    .work-container .item:nth-child(n+13) {
+        display: none;
+    }
+
+    .right-column .container:nth-child(n+3) {
+        display: none;
+    }
+
+    .left-column .skills-container:nth-child(n+1) {
+        display: none;
+    }
+}
+
+/* Components */
+.info-tag-container {
+    margin-bottom: 5px;
+}
+
+.info-tag-container .fa {
+    font-size: 14px;
+    width: 12px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.info-tag-container .fa.fa-map-marker {
+    font-size: 16px;
+}
+
+.info-tag-container .fa.fa-mobile {
+    font-size: 18px;
+}
+
+.info-tag-container .fa.fa-envelope-o {
+    font-size: 12px;
+}
+
+.info-tag-container .fa.fa-desktop {
+    font-size: 11px;
+}
+
+.info-tag-container .fa.fa-external-link {
+    width: auto;
+    font-size: 8px;
+    margin-left: 2px;
+    vertical-align: text-top;
+    color: #999;
+}
+
+.info-tag-container .info-text {
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: middle;
+    /* width: 139px; */
+}
+
+.references-container .fa {
+    font-size: 14px;
+}
+
+	</style>
+	</head>
+	<body>
+		<main id="resume" class="page">
+			<header class="resume-header clearfix">
+			    <div class="profile-header">
+			        <h1 class="display-block">Vasileios Aretakis</h1>
+			        <h2 class="display-block">IT Expert</h2>
+			    </div>
+			    <div class="profile-pic">
+			        <img src="vassilis.jpg" alt="profile-pic">
+			    </div>
+			</header>
+			<div class="resume-content">
+				<aside class="left-column">
+					<div class="container about-container">
+					    <div class="title">
+					        <h3>About</h3>
+					        <div class="keyline"></div>
+					    </div>
+					
+					        <div class="info-tag-container">
+					                <i class="fa fa-map-marker"></i>
+					        
+					                <h6 class="info-text">
+					                        Berlin, Germany
+					                </h6>
+					        </div>
+					
+					        <div class="info-tag-container">
+					                    <i class="fa fa-envelope"></i>
+					        
+					                <h6 class="info-text">
+					                    <a href="mailto:talkwith@vassilis.it" target="_blank">
+					                        talkwith@vassilis.it <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					                </h6>
+					        </div>
+					
+					        <div class="info-tag-container">
+					                    <i class="fa fa-mobile-alt"></i>
+					        
+					                <h6 class="info-text">
+					                    <a href="tel:+49 175 668 1 688" target="_blank">
+					                        +49 175 668 1 688 <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					                </h6>
+					        </div>
+					
+					        <div class="info-tag-container">
+					                    <i class="fa fa-desktop"></i>
+					        
+					                <h6 class="info-text">
+					                    <a href="http://vassilis.it" target="_blank">
+					                        vassilis.it <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					                </h6>
+					        </div>
+					
+					                         <div class="info-tag-container">
+					                                     <i class="fab fa-github"></i>
+					                         
+					                                 <h6 class="info-text">
+					                                     <a href="https://github.com/varet80" target="_blank">
+					                                         varet80 <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+					                         </div>
+					                        <div class="info-tag-container">
+					                                    <i class="fa fa-linkedin-square"></i>
+					                        
+					                                <h6 class="info-text">
+					                                    <a href="https://linkedin.com/in/varet" target="_blank">
+					                                        varet80 <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                    </a>
+					                                </h6>
+					                        </div>
+					</div>
+					    <div class="skills-container">
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>People Management</h3>
+					                        <div class="keyline"></div>
+					                    </div>
+					                    <h4 class="bold">master</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Hiring</h6></li>
+					                            <li><h6>Behavioral Feedback</h6></li>
+					                            <li><h6>Communication coaching</h6></li>
+					                            <li><h6>Developing people soft skills</h6></li>
+					                            <li><h6>Leading Change</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Technical Management</h3>
+					                        <div class="keyline"></div>
+					                    </div>
+					                    <h4 class="bold">master</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Coaching members or teams</h6></li>
+					                            <li><h6>DevOps Transformation</h6></li>
+					                            <li><h6>Strategy Planning</h6></li>
+					                            <li><h6>Delegation coaching</h6></li>
+					                            <li><h6>Short term Planning</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Cloud Technologies</h3>
+					                        <div class="keyline"></div>
+					                    </div>
+					                    <h4 class="bold">advanced</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Kubernetes</h6></li>
+					                            <li><h6>AWS</h6></li>
+					                            <li><h6>OpenStack</h6></li>
+					                            <li><h6>Azure</h6></li>
+					                            <li><h6>GCP</h6></li>
+					                            <li><h6>IaaS</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Automation</h3>
+					                        <div class="keyline"></div>
+					                    </div>
+					                    <h4 class="bold">advanced</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Helm</h6></li>
+					                            <li><h6>AWS CDK</h6></li>
+					                            <li><h6>GitOps</h6></li>
+					                            <li><h6>Terraform</h6></li>
+					                            <li><h6>CrossPlane</h6></li>
+					                            <li><h6>KOPS/EKS/AKS</h6></li>
+					                    </ul>
+					            </section>
+					    </div>
+					    <div class="container languages-container">
+					        <div class="title">
+					            <h3>Languages</h3>
+					            <div class="keyline"></div>
+					        </div>
+					
+					        <ul class="minimal">
+					                <li>
+					                    <h6>Greek <em class="pull-right ">(native)</em></h6>
+					                </li>
+					                <li>
+					                    <h6>English <em class="pull-right ">(advanced)</em></h6>
+					                </li>
+					                <li>
+					                    <h6>Dutch <em class="pull-right ">(beginner)</em></h6>
+					                </li>
+					                <li>
+					                    <h6>German <em class="pull-right ">(beginner)</em></h6>
+					                </li>
+					                <li>
+					                    <h6>Russian <em class="pull-right ">(just began)</em></h6>
+					                </li>
+					        </ul>
+					    </div>
+					    <div class="container interests-container">
+					        <div class="title">
+					            <h3>Interests</h3>
+					            <div class="keyline"></div>
+					        </div>
+					
+					            <section class="item">
+					                    <h4 class="bold">Music</h4>
+					                    <ul class="minimal">
+					                            <li>Composing</li>
+					                            <li>Music</li>
+					                            <li>Piano</li>
+					                            <li>Brain Synapses development</li>
+					                            <li>Classical Music</li>
+					                    </ul>
+					            </section>
+					            <section class="item">
+					                    <h4 class="bold">Mechanical Aviation</h4>
+					                    <ul class="minimal">
+					                            <li>Helicopters</li>
+					                            <li>Small sized airplanes</li>
+					                            <li>no Drones</li>
+					                            <li>Geometry</li>
+					                            <li>Combustion engines</li>
+					                            <li>Advanced aviation technologies</li>
+					                    </ul>
+					            </section>
+					    </div>
+				</aside>
+				<div class="right-column">
+					        <div class="container summary-container">
+					            <div class="title">
+					                    <i class="fa fas fa-file-alt"></i>
+					                <h3>Summary</h3>
+					                <div class="keyline"></div>
+					            </div>
+					            <p class="summary">
+					                Visionary technology expert with focus on driving teams to success. Driving based on the big picture. With multiple years different roles, and clear understanding of Business. Able to apply realistic approaches in any situation.
+					            </p>
+					        </div>
+					<div class="container work-container">
+					    <div class="title">
+					            <i class="fa fas fa-user-tie"></i>
+					        <h3>Experience</h3>
+					        <div class="keyline"></div>
+					    </div>
+					
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">06/2021</span>
+					                            <span class="endDate"> - Present</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Lead IT Expert</h4>
+					
+					
+					            <p class="summary">Leading DevOps teams to success. Around cost savings, architecture and cross team coordination</p>
+					
+					            <ul>
+					                <li>Mentor, grow and transform teams</li>
+					                <li>Lead workstreams to success</li>
+					                <li>Cost reduction, Improvement of Processes and coordination of multiple teams</li>
+					                <li>Business and Technology as one</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">11/2018</span>
+					                            <span class="endDate"> - 06/2021</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Operations Lead</h4>
+					
+					
+					            <p class="summary">Leading teams of engineers, to deliver important scientific products.</p>
+					
+					            <ul>
+					                <li>Work with five Dev squads, support dev teams and lead the way to devOps practices</li>
+					                <li>Implement new CI/CD and Branching strategy across Development and Operations</li>
+					                <li>Introduce new technology concepts for infrastructure, migrating products and supporting dev teams</li>
+					                <li>Feed value back to organization by leading through example and providing new standards.</li>
+					                <li>Build a team of engineers to support the initiatives</li>
+					                <li>Strategy to reduce time to production and introduction of Real DevOps.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">02/2017</span>
+					                            <span class="endDate"> - 11/2018</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Lead Missions Critical Engineer</h4>
+					
+					
+					            <p class="summary">Support Financial institutions, using modern methods on classic software. While keeping short delivery cycles, of a modern setup.</p>
+					
+					            <ul>
+					                <li>Lead the changes in the team, and support Human Factor.</li>
+					                <li>Introduce modern Container platform.</li>
+					                <li>Automate and build Dual Cloud implementation, involving Private/public clouds.</li>
+					                <li>Modernizing banking infrastructure.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">06/2016</span>
+					                            <span class="endDate"> - 02/2017</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Leading DevOps change (Contractor)</h4>
+					
+					
+					            <p class="summary">Bring devops to Amsterdam Hub of Elsevier, by delivering fresh technology, in a new product.</p>
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">04/2015</span>
+					                            <span class="endDate"> - 06/2016</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Manager of DevOps</h4>
+					
+					
+					            <p class="summary">Manage a team of professionals. Worked on transforming the team from Classic Ops to DevOps, but also lead the Public Cloud transition.</p>
+					
+					            <ul>
+					                <li>Gather a team of engineers (hiring)</li>
+					                <li>Introduce DevOps ways of working. (Infrastructure as code, automation, no Silos work)</li>
+					                <li>Coach team of engineers to Agile methodologies.</li>
+					                <li>Involve Development teams on transformation</li>
+					                <li>Migrate to cloud/adoption of cloud</li>
+					                <li>Blameless working.</li>
+					                <li>IaC and IaaS adoption through coaching of classic ICT engineers.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">05/2014</span>
+					                            <span class="endDate"> - 04/2015</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Lead/Senior DevOps Engineer</h4>
+					
+					
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">02/2013</span>
+					                            <span class="endDate"> - 05/2014</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Senior Systems Engineer</h4>
+					
+					
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">01/2013</span>
+					                            <span class="endDate"> - 10/2011</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Senior Systems Engineer</h4>
+					
+					
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">03/2008</span>
+					                            <span class="endDate"> - 03/2011</span>
+					                </h5>
+					            </div>
+					
+					            <h4>IT Manager</h4>
+					
+					
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">05/2007</span>
+					                            <span class="endDate"> - 03/2008</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Senior Systems Engineer</h4>
+					
+					
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">05/2005</span>
+					                            <span class="endDate"> - 05/2007</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Senior System Engineer</h4>
+					
+					
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">06/2001</span>
+					                            <span class="endDate"> - 05/2005</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Senior Systems Administrator</h4>
+					
+					
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">06/1999</span>
+					                            <span class="endDate"> - 06/2001</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Systems Administrator</h4>
+					
+					
+					
+					        </section>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

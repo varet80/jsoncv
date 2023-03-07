@@ -1,0 +1,258 @@
+{
+  "basics": {
+    "label": "IT Expert",
+    "website": "http://vassilis.it",
+    "phone": "+49 175 668 1 688",
+    "email": "talkwith@vassilis.it",
+    "location": {
+      "address": "Berlin, Germany"
+    },
+    "other": [],
+    "name": "Vasileios Aretakis",
+    "summary": "Visionary technology expert with focus on driving teams to success. Driving based on the big picture. With multiple years different roles, and clear understanding of Business. Able to apply realistic approaches in any situation.",
+    "image": "vassilis.jpg",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "varet80",
+        "url": "https://github.com/varet80"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "varet80",
+        "url": "https://linkedin.com/in/varet"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "SAP Signavio",
+      "website": "http://signavio.com",
+      "position": "Lead IT Expert",
+      "startDate": "2021-06",
+      "summary": "Leading DevOps teams to success. Around cost savings, architecture and cross team coordination",
+      "highlights": [
+        "Mentor, grow and transform teams",
+        "Lead workstreams to success",
+        "Cost reduction, Improvement of Processes and coordination of multiple teams",
+        "Business and Technology as one"
+      ]
+    },
+    {
+      "company": "Elsevier",
+      "website": "http://elsevier.com",
+      "position": "Operations Lead",
+      "startDate": "2018-11",
+      "endDate": "2021-06",
+      "summary": "Leading teams of engineers, to deliver important scientific products.",
+      "highlights": [
+        "Work with five Dev squads, support dev teams and lead the way to devOps practices",
+        "Implement new CI/CD and Branching strategy across Development and Operations",
+        "Introduce new technology concepts for infrastructure, migrating products and supporting dev teams",
+        "Feed value back to organization by leading through example and providing new standards.",
+        "Build a team of engineers to support the initiatives",
+        "Strategy to reduce time to production and introduction of Real DevOps."
+      ]
+    },
+    {
+      "company": "Schuberg Philis",
+      "website": "http://schubergphilis.com",
+      "position": "Lead Missions Critical Engineer",
+      "startDate": "2017-02",
+      "endDate": "2018-11",
+      "summary": "Support Financial institutions, using modern methods on classic software. While keeping short delivery cycles, of a modern setup.",
+      "highlights": [
+        "Lead the changes in the team, and support Human Factor.",
+        "Introduce modern Container platform.",
+        "Automate and build Dual Cloud implementation, involving Private/public clouds.",
+        "Modernizing banking infrastructure."
+      ]
+    },
+    {
+      "company": "Elsevier B.V.",
+      "website": "http://elsevier.com",
+      "position": "Leading DevOps change (Contractor)",
+      "startDate": "2016-06",
+      "endDate": "2017-02",
+      "summary": "Bring devops to Amsterdam Hub of Elsevier, by delivering fresh technology, in a new product.",
+      "highlights": []
+    },
+    {
+      "company": "Quby B.V.",
+      "website": "http://quby.com",
+      "position": "Manager of DevOps",
+      "startDate": "2015-04",
+      "endDate": "2016-06",
+      "summary": "Manage a team of professionals. Worked on transforming the team from Classic Ops to DevOps, but also lead the Public Cloud transition.",
+      "highlights": [
+        "Gather a team of engineers (hiring)",
+        "Introduce DevOps ways of working. (Infrastructure as code, automation, no Silos work)",
+        "Coach team of engineers to Agile methodologies.",
+        "Involve Development teams on transformation",
+        "Migrate to cloud/adoption of cloud",
+        "Blameless working.",
+        "IaC and IaaS adoption through coaching of classic ICT engineers."
+      ]
+    },
+    {
+      "company": "Marktplaats (eBay Classifieds)",
+      "website": "http://marktplaats.nl",
+      "position": "Lead/Senior DevOps Engineer",
+      "startDate": "2014-05",
+      "endDate": "2015-04",
+      "highlights": []
+    },
+    {
+      "company": "TMG Online Media",
+      "website": "http://tmg.nl",
+      "position": "Senior Systems Engineer",
+      "startDate": "2013-02",
+      "endDate": "2014-05",
+      "highlights": []
+    },
+    {
+      "company": "BackBase",
+      "website": "http://backbase.com",
+      "position": "Senior Systems Engineer",
+      "startDate": "2013-01",
+      "endDate": "2011-10",
+      "highlights": []
+    },
+    {
+      "company": "ICOP",
+      "website": "http://icop.gr",
+      "position": "IT Manager",
+      "startDate": "2008-03",
+      "endDate": "2011-03",
+      "highlights": []
+    },
+    {
+      "company": "Coca-Cola Hellenic",
+      "website": "http://n-topos.gr",
+      "position": "Senior Systems Engineer",
+      "startDate": "2007-05",
+      "endDate": "2008-03",
+      "highlights": []
+    },
+    {
+      "company": "Topos communications S.A.",
+      "website": "http://n-topos.gr",
+      "position": "Senior System Engineer",
+      "startDate": "2005-05",
+      "endDate": "2007-05",
+      "highlights": []
+    },
+    {
+      "company": "Exodus S.A.",
+      "website": "http://exus.com",
+      "position": "Senior Systems Administrator",
+      "startDate": "2001-06",
+      "endDate": "2005-05",
+      "highlights": []
+    },
+    {
+      "company": "iPNG Group S.A.",
+      "website": "http://ipng.gr",
+      "position": "Systems Administrator",
+      "startDate": "1999-06",
+      "endDate": "2001-06",
+      "highlights": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "People Management",
+      "level": "master",
+      "keywords": [
+        "Hiring",
+        "Behavioral Feedback",
+        "Communication coaching",
+        "Developing people soft skills",
+        "Leading Change"
+
+      ]
+    },
+    {
+      "name": "Technical Management",
+      "level": "master",
+      "keywords": [
+        "Coaching members or teams",
+        "DevOps Transformation",
+        "Strategy Planning",
+        "Delegation coaching",
+        "Short term Planning"
+      ]
+    },
+    {
+      "name": "Cloud Technologies",
+      "level": "advanced",
+      "keywords": [
+        "Kubernetes",
+        "AWS",
+        "OpenStack",
+        "Azure",
+        "GCP",
+        "IaaS"
+      ]
+    },
+    {
+      "name": "Automation",
+      "level": "advanced",
+      "keywords": [
+        "Helm",
+        "AWS CDK",
+        "GitOps",
+        "Terraform",
+        "CrossPlane",
+        "KOPS/EKS/AKS"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "summary": "Learning how to play Piano and also Compose music.",
+      "keywords": [
+        "Composing",
+        "Music",
+        "Piano",
+        "Brain Synapses development",
+        "Classical Music"
+      ]
+    },
+    {
+      "name": "Mechanical Aviation",
+      "summary": "Remote controlled machines",
+      "keywords": [
+        "Helicopters",
+        "Small sized airplanes",
+        "no Drones",
+        "Geometry",
+        "Combustion engines",
+        "Advanced aviation technologies"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Greek",
+      "fluency": "native"
+    },
+    {
+      "language": "English",
+      "fluency": "advanced"
+    },
+    {
+      "language": "Dutch",
+      "fluency": "beginner"
+    },
+    {
+      "language": "German",
+      "fluency": "beginner"
+    },
+    {
+      "language": "Russian",
+      "fluency": "just began"
+    }
+  ]
+}
